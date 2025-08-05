@@ -15,45 +15,48 @@
         <img src="/img/logo-ford-256.png" alt="Logo Ford">
         <nav>
             <ul>
-                <li><a href="/home.html">Home</a></li>
-                <li><a href="/lancamento.html">Lançamento</a></li>
-                <li><a href="/contato.html">Contato</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="lançamento.html">Lançamento</a></li>
+                <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
+        <div></div>
     </header>
+
     <main class="contatoPagina">
         <div class="contato-imagem">
-        <img src="img/xls 2.2 diesel.jpg" alt="Veiculo Contato">
-    </div>
-       <section class="formularioConteiner">
-        <form class="formulario">
-            <h3>Sobre Você</h3>
-            <div class="inputgrupo">
-                <input type="text" placeholder="Nome">
-            </div>
-            <div class="inputgrupo">
-                <input type="email" placeholder="E-MAIL">
-            </div>
-            <div class="inputgrupo">
-                <input type="tel" placeholder="TELEFONE">
-            </div>
-            <div class="inputgrupo">
-                <select>
-                 <option value="" disabled selected hidden> Tipo de Contato</option>
-                <option>Elogio</option>
-                <option>Reclamação</option>
-                <option>Solicitação</option>
-                </select>
-            </div>
-            <div class="inputgrupo">
-            <textarea placeholder="Digite sua mensagem" rows="2"></textarea>
+            <img src="/img/xls 2.2 diesel.jpg" alt="Veiculo Contato">
         </div>
-        <button type="submit" class="submitBotao">
-        <span>Enviar</span>
-    </button>
-        </form>     
-       </section>
+        <section class="formularioContainer">
+            <form class="formulario">
+                <h3>Sobre Você</h3>
+                <div class="inputGrupo">
+                    <input type="text" placeholder="Nome completo">
+                </div>
+                <div class="inputGrupo">
+                    <input type="email" placeholder="E-mail">
+                </div>
+                <div class="inputGrupo">
+                    <input type="tel" placeholder="Telefone">
+                </div>
+                <div class="inputGrupo">
+                    <select>
+                        <option value="" disabled selected hidden>Tipo de Contato</option>
+                        <option value="elogio">Elogio</option>
+                        <option value="reclamacao">Reclamação</option>
+                        <option value="solicitacao">Solicitação</option>
+                    </select>
+                </div>
+                <div class="inputGrupo">
+                    <textarea placeholder="Digite sua mensagem" rows="2"></textarea>
+                </div>
+                <button type="submit" class="submitBotao">
+                    <span>Enviar Mensagem</span>
+                </button>
+            </form>
+        </section>
     </main>
+
     <footer>
         <div class="redesSociais">
             <p>Redes Sociais</p>
@@ -68,7 +71,6 @@
             <img src="/img/ford-96.png" alt="Logo footer">
         </div>
     </footer>
-
 </body>
 
 </html>

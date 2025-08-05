@@ -1,8 +1,8 @@
 .texto_promocional{
     flex: 0 0 300px;
     padding-right: 20px;
-
 }
+
 .texto_promocional p{
     font-size: 16px;
     line-height: 1.5;
@@ -22,9 +22,9 @@
     border-radius: 8px;
     border: none;
 }
- 
+
 .tabelaCarros{
-    display:flex;
+    display: flex;
     justify-content: center;
     gap: 30px;
 }
@@ -39,7 +39,6 @@
     width: 100%;
     height: auto;
     margin-bottom: 0px;
-
 }
 
 .veiculoInformacao{
@@ -57,10 +56,9 @@
     position: relative;
     flex-shrink: 0;
     cursor: pointer;
-
 }
 
-.veiculoInformacao{
+.veiculoInformacao img{
     width: 20px;
     margin-top: auto;
     vertical-align: bottom;
@@ -87,7 +85,7 @@
     color: #000;
 }
 
-submit-botao{
+.submit-botao{
     background-color: #1351d8;
     color: #fff;
     border: none;
@@ -104,9 +102,8 @@ submit-botao{
     max-width: 200px;
 }
 
-.sumit-botao:hover{
+.submit-botao:hover{
     background-color: #00274C;
-    color: #fff;
-    transform: translate(-2px);
+    color: white;
+    transform: translateY(-2px);
 }
-
