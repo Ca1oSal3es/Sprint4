@@ -71,3 +71,25 @@
     resize: vertical;
     min-height: 50px;
 }
+
+.submitBotao{
+    background-color: #1351d8;
+    color: #ddd;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitBotao:hover{
+    background-color:#00274c;
+    color: #ddd;
+    transform: translate(-2px);
+}
+
